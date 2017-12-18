@@ -1,0 +1,7 @@
+applications:
+- name: test 
+  memory: 1G
+  instances: 1
+  path: ./target/cloudSource-0.0.1-SNAPSHOT.jar
+  services:
+  - mysql
